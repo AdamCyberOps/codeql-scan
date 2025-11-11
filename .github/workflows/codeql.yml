@@ -43,7 +43,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'python', 'go', 'javascript' ] # @NOTE: You may need to change depend on your repo
+        language: [ 'javascript' ] # @NOTE: You may need to change depend on your repo
 
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby', 'swift' ]
         # Use only 'java' to analyze code written in Java, Kotlin or both
