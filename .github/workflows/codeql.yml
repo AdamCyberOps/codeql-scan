@@ -92,7 +92,7 @@ jobs:
         output: ../analyze-results
 
     # upload the results for the CodeQL GitHub app to annotate the code
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: codeql-output.sarif
         path: /home/runner/work/sample-codeql-ci/analyze-results/
