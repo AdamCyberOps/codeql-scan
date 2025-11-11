@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: '0 0 * * 0'  # weekly scan
 
+permissions:
+  security-events: read
+  contents: read
+  
 jobs:
   codeql:
     name: "CodeQL Analysis"
